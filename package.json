@@ -1,5 +1,5 @@
 {
-  "name": "god",
+  "name": "@18ys/god",
   "version": "1.0.0",
   "description": "prefer to a global Object that can set some data to it, because vue3 don't have the global Object Vue.",
   "main": "src/index.ts",
