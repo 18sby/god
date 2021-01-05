@@ -1,7 +1,9 @@
 {
   "name": "god",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "prefer to a global Object that can set some data to it, because vue3 don't have the global Object Vue.",
+  "main": "src/index.ts",
+  "keywords": ["god", "global"],
   "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.0.0",
