@@ -6,7 +6,7 @@ God is a global target, you can set some data to it, to resolve that vue3 don't
 
 ### Node.js
 
-    $ npm install god
+    $ npm install @18ys/god
 
 ## Module
     umd
@@ -14,7 +14,7 @@ God is a global target, you can set some data to it, to resolve that vue3 don't
 ## Usage
 
 ```js
-import { give, ask, clean } from 'god';
+import { give, ask, clean } from '@18ys/god';
 
 // for example: set axios instance to god
 
@@ -33,7 +33,7 @@ ask('axios'); // null
 
 ## Api
 ```js
-import god from 'god';
+import god from '@18ys/god';
 
 // 1. set
 god.give(key: string, value: any, options?: { readonly?: boolean });
